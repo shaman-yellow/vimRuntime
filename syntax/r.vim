@@ -383,9 +383,9 @@ if g:r_syntax_hl_roxygen
   hi def link rOExamples   SpecialComment
 endif
 
-" syn match Underlined /^#| [a-zA-Z0-9\-]*$/
-" sy match Error /^#| .*[ _].*$/
-" sy match Error /^autor.*, \"/
+syn match Underlined /^#| [a-zA-Z0-9\-]*$/
+sy match Error /^#| .*[ _].*$/
+sy match Error /^autor.*, \"/
 syn sync fromstart
 
 let b:current_syntax="r"
